@@ -5,6 +5,10 @@ class EmptyDisplay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('No documents found'));
+    return const Center(
+        child: Padding(
+      padding: EdgeInsets.all(12.0),
+      child: Text('No documents found'),
+    ));
   }
 }
